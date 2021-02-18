@@ -28,7 +28,7 @@
             <form
             style="display: inline-block;"
             method="POST"
-            action="{{route('posts.destory'. ['post' => $post])}}"
+            action="{{route('posts.destroy', ['post' => $post])}}"
             >
                 {{csrf_field()}}
                 {{ method_field('DELETE')}}
